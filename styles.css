@@ -1,0 +1,82 @@
+.header-container {
+  display: flex;
+  margin-left: 30%;
+}
+.header-container img {
+  width: 60%;
+}
+
+.pokemonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figure_container {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #bd0003;
+  background-color: #f2d5d6;
+  align-content: center;
+  opacity: 90%;
+  overflow: hidden;
+  justify-content: center;
+  box-shadow: 2px 2px 4px #bd0003;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.figure_container:hover {
+  box-shadow: 5px 5px 8px #bd0003;
+  transform: translateY(-5%);
+}
+
+.figure_container img {
+  width: 33%;
+  margin-left: 30%;
+}
+
+.numero {
+  margin-left: 70%;
+}
+
+.nombre {
+  margin-left: 25%;
+  font-weight: bold;
+  font-family: Gill Sans MT;
+}
+
+.parrafos {
+  margin-left: 25%;
+  font-weight: bold;
+  font-family: Gill Sans MT;
+}
+
+.nav-enlace {
+  display: flex;
+  background: #1465bb;
+  color: #f8de7e;
+  padding: 10px 30px;
+  font-family: Gill Sans MT;
+  text-decoration: none;
+}
+
+.nav-enlace:hover {
+  background: #bd0003;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1465bb;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  background-image: url(https://phantom-marca.unidadeditorial.es/16a13927438aa8bba2c8250772a5c7f8/crop/48x0/670x350/resize/1320/f/jpg/assets/multimedia/imagenes/2021/02/23/16140832349541.jpg);
+  background-repeat: repetir;
+}
